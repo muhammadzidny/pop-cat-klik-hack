@@ -1,0 +1,40 @@
+(harus pakai pc/laptop)
+
+langkah langkah:
+
+copy code nya
+
+buka pop cat di web nya 
+
+klik inspect element/ inspeksi
+
+klik menu console/konsol
+
+paste code nya
+
+lalu enter
+
+selamat mencoba!!
+
+ini kode nya (copy dari nomor 21-34)
+
+var event = new KeyboardEvent("keydown" , {
+
+	key: 'g' , 
+
+	ctrlkey : true
+});
+
+setInterval(function(){
+
+	for (i = 0; i < 100; i++) {
+
+		document.dispatchEvent(event);
+	}
+}, 0);
+
+code by zidny
+
+souce: youtube
+
+                   terimakasih
